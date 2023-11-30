@@ -1,3 +1,6 @@
+//Guilherme Salgado Alves
+//RA: 140083
+
 #include <GL/glut.h>
 #include <stdio.h>
 #include <stdlib.h>
