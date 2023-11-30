@@ -48,8 +48,8 @@ void lightning(){
   glLightfv(GL_LIGHT1,GL_DIFFUSE, white);
   glLightfv(GL_LIGHT1,GL_SPECULAR, white);
   GLfloat direction[] = {2.0f, 2.0f, 2.0f};
-  glLightfv(GL_LIGHT1,GL_SPOT_DIRECTION,direction);       //vetor direção
-  glLightf(GL_LIGHT1,GL_SPOT_CUTOFF,30.0f);               //espalhamento angular
+  glLightfv(GL_LIGHT1,GL_SPOT_DIRECTION,direction);      
+  glLightf(GL_LIGHT1,GL_SPOT_CUTOFF,30.0f);              
   glLightf(GL_LIGHT1,GL_SPOT_EXPONENT,0.5f);    
 
     glEnable(GL_LIGHTING);
